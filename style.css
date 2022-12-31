@@ -162,6 +162,7 @@
   
     .blurb {
       display: inline-block;
+      vertical-align: top;
       width: 30%;
       padding: 1.5rem;
       margin: .5rem;
