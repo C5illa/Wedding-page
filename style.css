@@ -55,7 +55,7 @@
   /* == HEADER STYLES == */
   
   .cover {
-    background: url('assets/wedding-landing-background.png') no-repeat center;
+    background: url('assets/wedding-landing-cover.jpg') no-repeat center;
     background-size: cover;    
     height: 100vh;
     width: 100%;
@@ -85,7 +85,7 @@
   .hero-text {
     padding: 1rem;
     color: hsla(0,0%,100%,.9);
-    background-color: hsla(100,0%,0%,.5);
+    background-color: hsla(100,0%,0%,.6);
   }
   
   .hero-text h1 {
@@ -129,7 +129,7 @@
     }
     
     .cover {
-      background: url('assets/wedding-landing-background.png') no-repeat center/cover;
+      background: url('assets/wedding-landing-cover.jpg') no-repeat center/cover;
     }
     
   }
@@ -137,15 +137,16 @@
   /* == LOCATIONS STYLES == */
   
   .blurb img {
-    height: 8rem;
-  }
-  
-  .blurb h3 {
-    font-weight: 600;
+    height: 7.5rem;
   }
   
   .blurb {
     font-family: 'Mulish', sans-serif;
+  }
+  
+  .blurb h3 {
+    font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
   }
   
   .blurb::after {
@@ -174,7 +175,7 @@
   /* == PROGRAM STYLES == */
   
   .program {
-    background-color: hsla(100,0%,0%,.5);
+    background-color: hsla(100,0%,0%,.6);
     width: 100vw;
     text-align: left;
     color: #d2ba87;
@@ -206,7 +207,7 @@
   /* == GIFTS STYLES == */
   
   .gifts img {
-    height: 8rem;
+    height: 7.5rem;
   }
   
   .gifts p:last-child {
@@ -216,7 +217,7 @@
   /* == FAQ STYLES == */
   
   .faq {
-    background-color: hsla(100,0%,0%,.5);
+    background-color: hsla(100,0%,0%,.6);
     color: #d2ba87;
     width: 100vw;
     text-align: center;
@@ -275,13 +276,13 @@
   /* == FOOTER STYLES == */
   
   footer {
-    background-color: #606060;
+    background-color: hsla(100,0%,0%,.6);
     text-align: center;
-    font-size: .8rem;
+    font-size: .85rem;
     color: white;
     width: 100vw;
     height: 10vw;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Mulish', sans-serif;
     display: table;
     }
   
@@ -302,6 +303,6 @@
   @media (min-width: 768px) {
   
     footer {
-      max-height: 7vh;
+      max-height: 12vh;
     }
   }
