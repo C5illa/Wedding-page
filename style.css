@@ -1,308 +1,309 @@
 /* == GENERAL STYLES == */
 
 * {
-  box-sizing: border-box;
-}
-
-h1,h2,h3,
-ul,p,
-img {
-    margin-bottom: 1.5rem;
-}
-
-body {
-  background: url('assets/wedding-landing-background.png') repeat center;
-  font-family: font-family: 'Libre Baskerville', serif;
-  font-size: 1.125rem;
-  line-height: 1.5;
-  color: #444349;
-}
-
-.locations,
-.program,
-.gifts,
-.faq,
-.contact {
-  width: 95%;
-  margin: 1.5rem auto;
-  padding: .5rem 1rem;
-  text-align: center;
-}
-
-h1, h2 {
-  font-family: 'Great Vibes', cursive;
-}
-
-h2 {
-  font-size: 3rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-a {
-  text-decoration: none;
-  color: #bd806e;
-}
-
-a:hover {
-  color: #eda087;
-  transition: color .15s ease-in-out;
-}
-
-/* == HEADER STYLES == */
-  
-.cover {
-  background: url('assets/wedding-landing-cover.jpg') no-repeat center;
-  background-size: cover;    
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  display: table;
-}
-
-.hero-text-wrapper {
-  display: table-cell;
-  vertical-align: middle; 
-}
-
-.tagline {
-  font-size: 1.25rem;
-  letter-spacing: .15rem;
-}
-
-.tagline::after {
-  display: block;
-  content: "";
-  background-color: #fff;
-  height: 1px;
-  width: 12.515625rem;
-  margin: .5rem auto;
-}
-  
-.hero-text {
-  padding: 1rem;
-  color: hsla(0,0%,100%,.9);
-  background-color: hsla(100,0%,0%,.6);
-}
-
-.hero-text h1 {
-  color: #d2ba87;
-  font-size: 4rem;
-  margin-bottom: 0;
-}
-
-.date {
-  font-size: 1.25rem;
-  letter-spacing: .15rem;
-  vertical-align: middle;
-}
-
-.date::before,
-.date::after {
-  display: inline-block;
-  content: "";
-  background-color: #fff;
-  height: 1px;
-  width: 1.5rem;
-  vertical-align: middle;
-  margin: 0 .5rem;
-}
-
-@media (min-width: 768px) {
-
-  .tagline {
-    text-transform: uppercase;
-  }
-
-  .hero-text h1 {
-    font-size: 7rem;
-  }
-
-  .hero-text {
-    padding: 1.25rem;
-    border-radius: 4px;
-    margin-left: 25%;
-    margin-right: 25%;
+    box-sizing: border-box;
   }
   
+  h1,h2,h3,
+  ul,p,
+  img {
+      margin-bottom: 1.5rem;
+  }
+  
+  body {
+    background: url('assets/wedding-landing-background.png') repeat center;
+    font-family: font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #444349;
+  }
+  
+  .locations,
+  .program,
+  .gifts,
+  .faq,
+  .contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #bd806e;
+  }
+  
+  a:hover {
+    color: #eda087;
+    transition: color .15s ease-in-out;
+  }
+  
+  /* == HEADER STYLES == */
+    
   .cover {
-    background: url('assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    background: url('assets/wedding-landing-cover.jpg') no-repeat center;
+    background-size: cover;    
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: table;
   }
   
-}
-
-/* == LOCATIONS STYLES == */
+  .hero-text-wrapper {
+    display: table-cell;
+    vertical-align: middle; 
+  }
   
-.blurb img {
-  height: 7.5rem;
-}
-
-.blurb {
-  font-family: 'Mulish', sans-serif;
-}
-
-.blurb h3 {
-  font-weight: 600;
-  font-family: 'Libre Baskerville', serif;
-}
-
-.blurb::after {
-  content: "";
-  display: block;
-  height: .1875rem;
-  width: 25vw;
-  margin: 1.5rem auto;
-  background-color: #444349;
-}
-
-@media (min-width: 768px) {
-
-  .blurb {
+  .tagline {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+  }
+  
+  .tagline::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 12.515625rem;
+    margin: .5rem auto;
+  }
+    
+  .hero-text {
+    padding: 1rem;
+    color: hsla(0,0%,100%,.9);
+    background-color: hsla(100,0%,0%,.6);
+  }
+  
+  .hero-text h1 {
+    color: #d2ba87;
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  .date {
+    font-size: 1.25rem;
+    letter-spacing: .15rem;
+    vertical-align: middle;
+  }
+  
+  .date::before,
+  .date::after {
     display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    padding: 1.5rem;
-    margin: .5rem;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin: 0 .5rem;
   }
-
+  
+  @media (min-width: 768px) {
+  
+    .tagline {
+      text-transform: uppercase;
+    }
+  
+    .hero-text h1 {
+      font-size: 7rem;
+    }
+  
+    .hero-text {
+      padding: 1.25rem;
+      border-radius: 4px;
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+    
+    .cover {
+      background: url('assets/wedding-landing-cover.jpg') no-repeat center/cover;
+    }
+    
+  }
+  
+  /* == LOCATIONS STYLES == */
+    
+  .blurb img {
+    height: 7.5rem;
+  }
+  
+  .blurb {
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .blurb h3 {
+    font-weight: 600;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
   .blurb::after {
-    display: none;
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+    background-color: #444349;
   }
-}
-
-/* == PROGRAM STYLES == */
   
-.program {
-  background-color: hsla(100,0%,0%,.6);
-  width: 100vw;
-  text-align: left;
-  color: #d2ba87;
-  font-family: 'Mulish', sans-serif;
-}
-
-.program h2 {
-  font-family: 'Great Vibes', cursive;
-  margin-top: 1rem;
-  text-align: center;
-}
-
-.program p {
-  font-style: italic;
-}
-
-.program ul {
-  letter-spacing: .025rem;
+  @media (min-width: 768px) {
+  
+    .blurb {
+      display: inline-block;
+      vertical-align: top;
+      width: 30%;
+      padding: 1.5rem;
+      margin: .5rem;
+    }
+  
+    .blurb::after {
+      display: none;
+    }
   }
-
-@media (min-width: 768px) {
   
-  .program-wrapper {
-    width: 30vw;
-    margin: 0 auto;
+  /* == PROGRAM STYLES == */
+    
+  .program {
+    background-color: hsla(100,0%,0%,.6);
+    width: 100vw;
+    text-align: left;
+    color: #d2ba87;
+    font-family: 'Mulish', sans-serif;
   }
-}
-
-/* == GIFTS STYLES == */
   
-.gifts img {
-  height: 7.5rem;
-}
-
-.gifts p:last-child {
-  margin-bottom: 0;
-}
-
-/* == FAQ STYLES == */
+  .program h2 {
+    font-family: 'Great Vibes', cursive;
+    margin-top: 1rem;
+    text-align: center;
+  }
   
-.faq {
-  background-color: hsla(100,0%,0%,.6);
-  color: #d2ba87;
-  width: 100vw;
-  text-align: center;
-}
-
-.faq p {
-  text-align: left;
-  font-family: 'Mulish', sans-serif;
-}
-
-.question {
-  font-weight: 800;
-  margin-bottom: .5rem;
-}
-
-.answer {
-  margin-bottom: 1.5rem;
-}
-
-.question-group {
-  display: inline;
-}
-
-.faq h2 {
-  margin-top: 1rem;
-}
-
-.question-group::after {
-  content: "";
-  display: block;
-  height: .1875rem;
-  width: 50vw;
-  margin: 1.5rem auto;
-  background-color: #d2ba87;
-}
-
-@media (min-width: 768px) {
+  .program p {
+    font-style: italic;
+  }
+  
+  .program ul {
+    letter-spacing: .025rem;
+    }
+  
+  @media (min-width: 768px) {
+    
+    .program-wrapper {
+      width: 30vw;
+      margin: 0 auto;
+    }
+  }
+  
+  /* == GIFTS STYLES == */
+    
+  .gifts img {
+    height: 7.5rem;
+  }
+  
+  .gifts p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* == FAQ STYLES == */
+    
+  .faq {
+    background-color: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .faq p {
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
+  }
+  
+  .question {
+    font-weight: 800;
+    margin-bottom: .5rem;
+  }
+  
+  .answer {
+    margin-bottom: 1.5rem;
+  }
   
   .question-group {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-    padding: 1.5rem;
-    margin: .5rem;
+    display: inline;
   }
   
-  .question-group h3 {
-    text-align: left;
+  .faq h2 {
+    margin-top: 1rem;
   }
   
   .question-group::after {
-    display: none;
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 50vw;
+    margin: 1.5rem auto;
+    background-color: #d2ba87;
   }
-}
-
-/* == FOOTER STYLES == */
   
-footer {
-  background-color: hsla(100,0%,0%,.6);
-  text-align: center;
-  font-size: .85rem;
-  color: white;
-  width: 100vw;
-  height: 10vw;
-  font-family: 'Mulish', sans-serif;
-  display: table;
+  @media (min-width: 768px) {
+    
+    .question-group {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      padding: 1.5rem;
+      margin: .5rem;
+    }
+    
+    .question-group h3 {
+      text-align: left;
+    }
+    
+    .question-group::after {
+      display: none;
+    }
   }
-
-.footer-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-  padding: .5rem 1rem;
-}
-
-footer p {
-  margin-bottom: 0;
-}
-
-footer small {
-  line-height: 1.5;
-}
-
-@media (min-width: 768px) {
-
+  
+  /* == FOOTER STYLES == */
+    
   footer {
-    max-height: 12vh;
+    background-color: hsla(100,0%,0%,.6);
+    text-align: center;
+    font-size: .85rem;
+    color: white;
+    width: 100vw;
+    height: 10vw;
+    font-family: 'Mulish', sans-serif;
+    display: table;
+    }
+  
+  .footer-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding: .5rem 1rem;
   }
-}
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer small {
+    line-height: 1.5;
+  }
+  
+  @media (min-width: 768px) {
+  
+    footer {
+      max-height: 12vh;
+    }
+  }
+  
